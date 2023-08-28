@@ -54,21 +54,52 @@ nav a {
 
 .header {
     background: #FFF8F3;
+    background-image: url('../Images/multiple_images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    /* background-image: url(../Images/multiple_images/developer.png);
+    background-position: left top; */
 }
 
 .banner {
-    padding: 30px 30px 30px 150px;
+    /* padding: top right bottom left */
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.banner_body {
+    width: 500px;
 }
 
 /* .banner_body {
     align-items: center;
+}
+*/
+
+.banner_greeting {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.banner_name {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* .banner-descript {
+    margin-top: 50px;
 } */
 
 .banner_profile {
     width: 584px;
+    padding-right: 50px;
 }
+
 
 
 
