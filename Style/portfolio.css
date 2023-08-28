@@ -199,6 +199,7 @@ main {
 
 }
 
+
 .part1 {
     margin-right: 160px;
 }
@@ -236,6 +237,79 @@ main {
 .download_cv {
     text-align: center;
 }
+
+/* Footer part */
+
+.footer {
+    background: #FFF8F3;
+    margin-top: 150px;
+    padding-top: 140px;
+}
+
+.add_part {
+    display: flex;
+}
+
+.footer_part1 {
+    padding-left: 635px;
+    margin-right: 100px;
+}
+
+.footer_title {
+    color: var(--dark-01, #181818);
+
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer_description {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 0px 30px 0px 0px;
+
+}
+
+.img_section {
+    display: inline;
+}
+
+.footer_part2 {
+    margin-right: 625px;
+}
+
+/* form action */
+
+#text {
+    border-radius: 10px;
+    border: 5px solid white;
+    padding: 20px;
+    background: var(--white-color, #FFF);
+    margin-bottom: 15px;
+}
+
+#email {
+    border-radius: 10px;
+    border: 5px solid white;
+    padding: 20px;
+    background: var(--white-color, #FFF);
+    margin-bottom: 15px;
+}
+
+#message {
+    border-radius: 10px;
+    border: 5px solid white;
+    padding: 20px;
+    background: var(--white-color, #FFF);
+    margin-bottom: 15px;
+    ;
+}
+
+
 
 
 
