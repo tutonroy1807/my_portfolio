@@ -1,0 +1,56 @@
+/* 
+Shared Common text property
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#text_primary {
+    color: #FD6E0A;
+}
+
+.btn_primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    color: white;
+    padding: 15px 30px;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_title {
+    color: var(--dark-01, #181818);
+    font-size: 45px;
+    font-weight: 800;
+    /* line-height: normal; */
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav>ul>li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+
+
+/* li {
+    display: inline;
+} */
