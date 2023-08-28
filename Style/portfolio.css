@@ -181,3 +181,64 @@ main {
     margin-right: 15px;
     padding: 10px 15px;
 }
+
+/* Resume Part  */
+
+.part_concate {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+
+}
+
+.edu {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+
+.part1 {
+    margin-right: 160px;
+}
+
+.resume_description {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+
+
+}
+
+.resume_date {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 0px;
+
+
+}
+
+.resume_content {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 50px;
+    /* 175% */
+}
+
+.download_cv {
+    text-align: center;
+}
+
+
+
+/* .resume_skill {
+    padding: 15px 30px;
+} */
